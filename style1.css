@@ -1,0 +1,100 @@
+/* Adăugat stil pentru logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 100px;
+}
+
+/* Main Content */
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-title, .register-title {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.login-input, .register-input, #dob, #country {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ffffff; /* Schimbat la alb */
+}
+
+.login-button, .register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button:hover, .register-button:hover {
+    background-color: #2980b9;
+}
+
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.link a {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.link a:hover {
+    color: #e74c3c;
+}
+
+
+/* Adăugă aceste stiluri pentru a formata noile câmpuri */
+#day, #month, #year {
+    width: calc(33.33% - 8px);
+    padding: 12px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #2c3e50;
+}
+
+.birthdate-container {
+    display: flex;
+    gap: 10px; /* Spațiu între casete */
+}
+
+/* Stil pentru fiecare casetă individuală */
+#day, #month, #year {
+    flex: 1; /* O parte egală din lățimea containerului */
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+

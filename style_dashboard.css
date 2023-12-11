@@ -1,0 +1,191 @@
+/* Resetare stiluri implicite ale browser-ului */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adaugă o clasă generală pentru a încadra conținutul */
+.dashboard-container {
+    padding-top: 120px; /* Ajustează această valoare în funcție de înălțimea header-ului tău */
+    align-items: stretch; /* Asigură înălțimi egale pentru copiii flexbox */
+}
+
+
+/* Stilizare container formular Adăugare Produse */
+.add-product-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 866px;
+}
+
+/* Stilizare container Listă Produse */
+.product-list-container {
+    height: 866px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Stilizare label-uri */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Stilizare input-uri și textarea */
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+
+/* Stilizare buton de submit */
+.centered-button-container {
+    text-align: center; /* Adaugat pentru a centra conținutul */
+    margin-top: 25px; /* Adaugat pentru a crea un spațiu între buton și conținutul anterior */
+
+}
+
+.centered-button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.centered-button:hover {
+    background-color: #555;
+}
+
+
+
+/* Stilizare lista de produse */
+h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #333;
+    text-align: center; /* Adăugat pentru a centra textul în lista de produse */
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+/* Stilizare imagine produs */
+.product-info-container img {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 8px;
+}
+
+/* Stilizare container pentru informații despre produs */
+.product-info-container {
+    display: flex;
+    flex-direction: row-reverse; /* Schimbă direcția de afișare a elementelor */
+    align-items: flex-start; /* Aliniază informațiile la partea de sus a containerului */
+    justify-content: space-between;
+}
+
+/* Stilizare container informații produs */
+.product-info {
+    flex: 1; /* Ocupă spațiul disponibil */
+    margin-right: 20px; /* Spațiu între informații și imagine */
+}
+
+/* Stilizare buton de ștergere */
+.product-info-container button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Adaugă un spațiu între imagine și butonul de ștergere */
+}
+
+
+
+
+
+
+
+/* Stilizare imagine produs */
+.product-info-container img {
+    max-width: 150px; /* Am mărit lățimea imaginii */
+    max-height: 150px; /* Am mărit înălțimea imaginii */
+    border-radius: 8px;
+}
+
+/* Stilizare container pentru informații despre produs */
+.product-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Stilizare container informații produs */
+.product-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Stilizare buton de ștergere */
+.delete-button {
+    position: absolute;
+    bottom: 35px; /* Ajustează distanța de la partea de jos */
+    right: 40px; /* Ajustează distanța de la partea dreaptă */
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
