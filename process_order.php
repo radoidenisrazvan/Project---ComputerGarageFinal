@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host = 'smtp-relay.brevo.com'; // Serverul tău SMTP
         $mail->SMTPAuth = true;
         $mail->Username = 'star_tun1ng@yahoo.com'; // Username-ul tău SMTP
-        $mail->Password = 'xsmtpsib-77a765c79b1e6c81d8888b0092ca6fa27828714fa7fe92c15a98050daa1a8eb6-FIqC5DMOTyYQEZ7P'; // Parola ta SMTP
+        $mail->Password = ''; // Parola ta SMTP
         $mail->SMTPSecure = 'tls'; // Activează criptarea TLS, acceptă și 'ssl'
         $mail->Port = 587; // Portul TCP pentru conexiune
 
